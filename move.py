@@ -1,5 +1,5 @@
 import os
-import shutil  # This line was missing previously!
+import shutil  
 
 def move_files_by_extension(source_folder, target_folder, extensions):
     try:
