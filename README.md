@@ -1,16 +1,16 @@
-File Organizer Scripts
+# File Organizer Scripts
 
 This repository contains two Python scripts designed for organizing and managing files based on their extensions. These scripts help automate file management tasks such as sorting files into categorized folders and moving files to a target directory.
 
-Scripts Overview
+# Scripts Overview
 
-1. organize.py
+# 1. organize.py
 
-Purpose
+# Purpose
 
 This script organizes files in a specified source folder by grouping them into subfolders based on their extensions. Each file type (extension) will have its own folder.
 
-How It Works
+# How It Works
 
 The user specifies a source folder and a list of file extensions.
 
@@ -19,7 +19,7 @@ The script creates subfolders for each extension inside the source folder (if th
 Files matching the specified extensions are moved into the respective subfolders.
 
 
-Usage
+# Usage
 
 1. Run the script.
 
@@ -34,7 +34,7 @@ Usage
 
 
 
-Example
+# Example
 
 If you specify extensions .txt and .jpg:
 
@@ -46,20 +46,20 @@ Files like image.jpg will move to JPG_Files/.
 
 ---
 
-2. move.py
+# 2. move.py
 
-Purpose
+# Purpose
 
 This script moves files from a source folder to a target folder based on their extensions. It ensures that only specified file types are transferred.
 
-How It Works
+# How It Works
 
 The user specifies a source folder, a target folder, and a list of file extensions.
 
 The script moves files with matching extensions from the source folder to the target folder.
 
 
-Usage
+# Usage
 
 1. Run the script.
 
@@ -77,7 +77,7 @@ Usage
 
 
 
-Example
+# Example
 
 If you specify extensions .png and .docx:
 
@@ -89,7 +89,7 @@ Files like report.docx will also move to the target folder.
 
 ---
 
-Prerequisites
+# Prerequisites
 
 Ensure you have Python installed on your system (Python 3.x recommended). These scripts rely on the following standard library modules:
 
@@ -103,7 +103,7 @@ No additional packages are required.
 
 ---
 
-Running the Scripts
+# Running the Scripts
 
 1. Download the scripts.
 
@@ -127,7 +127,7 @@ python move.py
 
 ---
 
-Notes
+# Notes
 
 Ensure that the source folder contains files before running the scripts.
 
